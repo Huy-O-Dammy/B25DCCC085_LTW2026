@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    padding: 20px;
+}
+
+.container h2 {
+    color: red;
+}
+
+.form {
+    display: flex;
+    gap: 0;
+    margin-bottom: 15px;
+}
+
+.form input {
+    width: 185px;
+    height: 25px;
+    padding: 5px;
+}
+
+.form button {
+    height: 25px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.stats {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.filters {
+    display: flex;
+    gap: 8px;
+}
+
+.filters button {
+    cursor: pointer;
+}
+
+.student-list {
+    padding-left: 45px;
+}
+
+.student-item {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+.delete-btn {
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.passed {
+    color: green;
+}
+
+.failed {
+    color: red;
+}
